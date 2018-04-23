@@ -1,7 +1,10 @@
 # Datasets
+*.npz
+*.npy
 *ubyte.gz
 *archive.ics.uci.edu*
 code/model_zoo/cifar-10
+code/model_zoo/pytorch_ipynb/data
 
 # Temporary OS files
 .DS_Store
@@ -11,6 +14,10 @@ checkpoint
 code/*/*.data-?????-of-?????
 code/*/*.index
 code/*/*.meta
+code/model_zoo/tensorflow_ipynb/*.data-?????-of-?????
+code/model_zoo/tensorflow_ipynb/*.index
+code/model_zoo/tensorflow_ipynb/*.meta
+code/model_zoo/tensorflow_ipynb/cifar-10/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
